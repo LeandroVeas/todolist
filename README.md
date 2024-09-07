@@ -35,7 +35,7 @@ Escuchar el contenido: El encabezado principal (h1) puede ser escuchado por usua
 
 bash
 Copiar código
-git clone https://github.com/tu-usuario/to-do-list.git
+git clone https://github.com/LeandroVeas/todolist
 Navega al directorio del proyecto:
 
 bash
