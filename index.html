@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <main>
+        <div class="cuerpo">
+            <div class="titulo">
+                <h1>To Do List</h1>
+                <div id="fecha"></div>
+            </div>
+           
+            <div class="ingreso">
+                <input type="text" class="ingreso-input" id="ingreso-usuario" placeholder="Que tienes que hacer..?" aria-label="campo para agregar una tarea" maxlength="25">
+            </div>
+            <div class="ingreso-usuario" id="tarea-ingresada"></div>
+            <div class="botones">
+                <button class="btn" id="agregar" type="submit" aria-label="boton para agregar la tarea">Agregar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div><span>Leandro Veas</span></div>
+    </footer>
+    <script  type="module" src="main.js"></script>
+</body>
+</html>
