@@ -1,6 +1,3 @@
-
-
-
 let $ingresoUsuario = document.querySelector("#ingreso-usuario");
 let $agregarDatos = document.querySelector("#agregar");
 let $tareaIngresada = document.querySelector("#tarea-ingresada");
